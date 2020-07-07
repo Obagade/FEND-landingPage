@@ -1,3 +1,8 @@
+/* For smooth scrolling on the page*/
+html{
+    scroll-behavior: smooth;
+}
+
 /*
  *
  * CSS written based on SMACSS architecture.
@@ -68,10 +73,20 @@ section {
     padding-left: 0;
     margin: 0;
     text-align: right;
+    background:rgb(255, 251, 0);
 }
 
 .navbar__menu li {
     display: inline-block;
+    padding: 20px 20px;
+    font-size: 20px;
+
+}
+
+.navbar__menu li a {
+    text-decoration: none;
+    color: rgb(8, 236, 160);
+    
 }
 
 .navbar__menu .menu__link {
