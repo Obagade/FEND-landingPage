@@ -1,11 +1,11 @@
 # Landing Page Project
- >Includes
+ >This project contains
 
  1. html
  2. css
  3. js
 
-* [Instructions](#instructions)
+
 
 ## Instructions
 
